@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./assets/resort-icon.png" type="image/x-icon">
+    <title>Hoteis Project</title>
+</head>
+
+<body class="bg-gray-100 text-gray-600">
+    <header class="">
+        <nav class="container mx-auto px-4 h-24 flex items-center justify-between">
+            <div>
+                <img class="h-12" src="./assets/resort-icon.png" alt="logo">
+            </div>
+            <ul class="flex space-x-3">
+                <li>
+                    <a class="text-md text-gray-600 hover:text-gray-800 hover:underline" href="#">Como reservar?</a>
+
+
+                </li>
+                <li>
+                    <a class="text-md text-gray-600 hover:text-gray-800 hover:underline" href="#">Sobre nós</a>
+
+
+                </li>
+                <li>
+
+                    <a class="text-md text-gray-600 hover:text-gray-800 hover:underline" href="#">Informações</a>
+
+                </li>
+                <li>
+
+                    <a class="text-md text-gray-600 hover:text-gray-800 hover:underline" href="#">Contato</a>
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section style="background: url('./assets/banner-home.jpg'); background-position: center; height: 450px;">
+        <div class="container h-full  mx-auto px-4 flex items-center justify-center">
+            <div class="text-white text-center">
+                <h1 class="text-gray-200 text-3xl mb-3">Onde você quer ir?</h1>
+                <p class="text-green-100">Escolha o estado e cidade para achar os melhores resorts</p>
+
+
+                <div class="mt-8">
+                    <form class="flex space-x-3" action="#">
+                        <select class="bg-gray-50 px-3 py-2 outline-none border border-gray-300 rounded text-gray-500"
+                            name="" id="">
+                            <option value="">Escolha o estado</option>
+                        </select>
+                        <select class="bg-gray-50 px-3 py-2 outline-none border border-gray-300 rounded text-gray-500"
+                            name="" id="">
+                            <option value="">Escolha a cidade</option>
+                        </select>
+
+                        <button class="text-white text-lg flex items-center gap-1 bg-sky-500 py-2 px-8 rounded shadow ">
+                            <svg class="h-4 " fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z">
+                                </path>
+                            </svg>
+                            Pesquisar</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="container mx-auto px-4 py-10">
+            <div class="flex">
+                <div class="flex-grow-1 pr-10">
+                    <p class="text-sm text-gray-400 font-medium">RESORTS EM DESTAQUE</p>
+                    <h2 class="text-2xl">Ecoresort Praia do Forte Bahia</h2>
+                    <h4 class="text-sm text-gray-400 font-medium mt-4">Hotel qualidade 5 estrelas</h4>
+                    <div class="mt-4 ">
+                        <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas beatae dicta
+                            aperiam
+                            placeat necessitatibus obcaecati quidem, modi eum odio odit saepe corporis ut sequi eius
+                            elit. Vitae fuga aspernatur nam, repellat facilis dolor reiciendis dolores eligendi aliquam
+                            sint enim. Eligendi voluptas quam dolorum adipisci, pariatur odit doloribus culpa.</p>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo id obcaecati
+                            facere
+                            commodi accusantium! Aut earum veritatis voluptatibus accusamus eaque.</p>
+                    </div>
+
+                    <a class="text-white  text-lg bg-sky-500 py-2 px-4 rounded shadow ">Faça sua Reserva</a>
+                </div>
+
+                <div class="flex-shrink-0 ml-auto">
+                    <img class="rounded-xl shadow-xl" src="./assets/img-resort.jpg" alt="image-resort" width="400">
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
